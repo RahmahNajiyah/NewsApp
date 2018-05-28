@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_start_color"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.tiara.newsapp.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/container">-->
+
+    <!--</FrameLayout>-->
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/background"
+        android:padding="5dp"
+        android:id="@+id/textSearch"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Search News"
+        android:drawableLeft="@android:drawable/ic_menu_search"/>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="90dp"
+        android:id="@+id/gridView"
+        android:numColumns="2"
+        android:layout_marginTop="235dp"
+        android:gravity="center"
+        >
+
+    </GridView>
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="153dp"
+            android:layout_marginStart="153dp"
+            android:id="@+id/progressBarSearch" />
+    </com.daimajia.slider.library.SliderLayout>
+</FrameLayout>

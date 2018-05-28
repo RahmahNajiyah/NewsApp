@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "372032056354",
+    "firebase_url": "https://belajar-admop.firebaseio.com",
+    "project_id": "belajar-admop",
+    "storage_bucket": "belajar-admop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372032056354:android:f765fed05f231f6e",
+        "android_client_info": {
+          "package_name": "com.tiara.newsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372032056354-8gel1van1dq9dec1v6oldr5ob4mi4mf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdLIG5Y_kbcgefpJsK0PUjLNp4C5DCp20"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

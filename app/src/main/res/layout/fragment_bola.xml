@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorxampp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.tiara.newsapp.Fragment.BolaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tab"
+        android:background="@android:color/holo_red_light"
+        app:tabIndicatorColor="@android:color/holo_blue_light"
+        app:tabTextColor="@android:color/white">
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pager"
+        android:layout_below="@+id/tab"
+       >
+
+    </android.support.v4.view.ViewPager>
+
+
+</RelativeLayout>
